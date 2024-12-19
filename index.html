@@ -5,40 +5,191 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <header>
-        <h1>Meu Portfólio</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="img/1.png">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li id="link1" class="link"><a href="#">Características</a></li>
+            <li id="link2" class="link"><a href="#">Precificação</a></li>
+            <li id="link3" class="link"><a href="#">Sobre</a></li>
+        </ul>
+        <button class="btn">Contrate-me</button>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h1>Olá , Me chamo <span>Brendon</span>, Web Developer</h1>
+            <p>Olá! Sou um desenvolvedor recém-formado em Análise e Desenvolvimento de Sistemas, durante minha formação, adquiri habilidades sólidas em desenvolvimento de software e estou em busca de novos desafios para aplicar e expandir meus conhecimentos.
+        <button class="btn">Contato</button>
+    
+        </div>
+        <div class="image">
+            <img src="/img/2.png">
+        </div>
     </header>
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Sou um desenvolvedor apaixonado por cibersegurança e tecnologia. Atualmente, estou me formando em Análise e Desenvolvimento de Sistemas.</p>
-    </section>
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <div class="projeto">
-            <h3>Em produção</h3>
-            <p>...</p>
+
+    <section class="container">
+        <h2 class="header">NOSSOS RECURSOS</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-money-dollar-box-line"></i></span>
+                <h4>Tutoriais Gratuitos</h4>
+                <p>
+                    Meus tutoriais no meu canal "Dev Room 404" são gratuitos
+                </p>
+                <a href="#">Cadastre-se agora <i class="ri-arrow-rightline"></i> </a>
+            </div>
+            <div class="card">
+                <span><i class="ri-bug-line"></i></span>
+                <h4>Corrija seus bugs</h4>
+                <p>
+                    Você tem algum problema no código? Contate-nos    
+                </p>
+                <a href="#">Cadastre-se agora <i class="ri-arrow-rightline"></i> </a>
+            </div>
+            <div class="card">
+                <span><i class="ri-history-line"></i></span>
+                <h4>Vídeos únicos</h4>
+                <p>
+                    Temos vídeo todos os dias, não se esqueça  
+                </p>
+                <a href="#">Cadastre-se agora <i class="ri-arrow-rightline"></i> </a>
+            </div>
+            <div class="card">
+                <span><i class="ri-shake-hands-line"></i></span>
+                <h4>Cooperação</h4>
+                <p>
+                    Meus tutoriais no meu canal "Dev Room 404" são gratuitos
+                </p>
+                <a href="#">Cadastre-se agora <i class="ri-arrow-rightline"></i> </a>
+            </div>
         </div>
-        <div class="projeto">
-            <h3>Em produção</h3>
-            <p>...</p>
+    </section>
+
+
+    <section class="container">
+        <h2 class="header">PLANOS DE PREÇOS DO PROJETO</h2>
+        <p class="sub-header">
+            Nossos planos de preços vêm com vários níveis de membros, dicas de código.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Plano Básico</h4>
+                    <h3>5$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Plano de codificação inteligente
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Exercícios em casa
+                    </p>
+                </div>
+                <button class="btn">Cadastre-se agora</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Diamond Plan</h4>
+                    <h3>100$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Plano de codificação inteligente
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Exercícios em casa
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Treinamento Pessoal
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Cursos Avançados
+                    </p>
+                </div>
+                <button class="btn">Cadastre-se agora</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Elite Plan</h4>
+                    <h3>180$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Treinamento Pessoal
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Cursos Avançados
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Plano de codificação inteligente
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Exercícios em casa
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        de zero a herói!
+                    </p>
+                </div>
+                <button class="btn">Cadastre-se agora</button>
+            </div>
         </div>
-        <!-- Adicione mais projetos aqui -->
     </section>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Email: brendonNK@proton.me</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Brendon</p>
+
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <img src="img/1.png">
+            </div>
+            <p>
+                Estou entusiasmado para contribuir com projetos inovadores e colaborar com equipes dinâmicas para criar soluções tecnológicas eficientes. </p>
+            <div class="socials">
+                <a href="#"><i class="ri-youtube-line"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-twitter-line"></i></a>
+            </div>
+        </div>
+        <div class="column">
+            <h4>Companhia</h4>
+            <a href="#">Negócios</a>
+            <a href="#">Parceria</a>
+            <a href="#">Redes</a>
+        </div>
+        <div class="column">
+            <h4>Quem somos</h4>
+            <a href="#">Blogs</a>
+            <a href="#">Canais</a>
+            <a href="#">Patrocinador</a>
+        </div>
+        <div class="column">
+            <h4>Contato</h4>
+            <a href="#">Contate-nos</a>
+            <a href="#">Política de privacidade</a>
+            <a href="#">Termos e Condições</a>
+        </div>
     </footer>
+
+    <div class="copyright">
+        Copyright 2025
+    </div>
 </body>
 </html>
